@@ -1,0 +1,17 @@
+	<div>
+		<span>Hobbies:</span>
+			<div ng-repeat="hobby in vm.user.hobbies">
+		 		{{hobby}}
+		 	</div>
+		 	<br />
+		<span>Occupations:</span>
+			<div ng-repeat="occupation in vm.user.occupations">
+		 		{{occupation}}
+		 	</div>
+		 	<br />
+		<span>Mentions:</span>
+			<div ng-repeat="mention in vm.user.mentions">
+				{{mention}}
+			</div>
+			<br />
+	</div>

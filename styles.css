@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+body {
+	padding: 20px;
+}
+
+header {
+	width: 80%;
+	padding: 10px;
+}
+
+header .name-text {
+	font-size: 2em;
+}
+
+span {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.btn-default {
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.pull-right {
+	display: inline-block;
+	float: right;
+}
