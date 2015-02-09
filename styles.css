@@ -33,3 +33,16 @@ span {
 	display: inline-block;
 	float: right;
 }
+
+.pull-left {
+	display: inline-block;
+	float: left;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.clear {
+	clear: both;
+}

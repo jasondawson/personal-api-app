@@ -1,11 +1,13 @@
-<form ng-submit="vm.updateLocation()">
+<form class="pull-left" ng-submit="vm.updateLocation()">
 <label for="location">Location</label>
 <input type="text" id="location" ng-model="vm.location" placeholder="Enter new location" />
+<p ng-class="inline" ng-show="vm.locUpdated">Updated!</p>
 </form> 
+<br class="clear" />
 
-
-<hr>
-<form ng-submit="vm.addMention()">
+<hr class="clear">
+<form class="pull-left clear" ng-submit="vm.addMention()">
 <label for="mention">Add Mention</label>
 <input type="text" id="mention" ng-model="vm.mention" placeholder="Enter URL" />
+<p ng-class="inline" ng-show="vm.mentionUpdated">Updated!</p>
 </form>
